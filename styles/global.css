@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+
+  }
+
+  .user-link {
+    text-decoration: none;
+    color: #2567ad;
+    font-weight: bold;
+    font-family: 'Sometype Mono', monospace;
+    padding: 0 0 0 20px;
+  }
+  .user-link-detail{
+    color: #000000;
+    font-weight: 900;
+    font-size: 1rem;
+    font-family: 'Sometype Mono', monospace;
+    padding: 0 0 0 20px;
+  }
+
+  .user-link:hover {
+    text-decoration: underline;
+  }
+
+  .posts {
+    background-color: #2567ad45;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  .posts h1 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+  }
+  
+  .allposts{
+    background-color: #7b88dc45;
+  
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    
+  }
+
+  .allposts h5{
+    color: #2567ad;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    font-size: 1rem;
+  }
